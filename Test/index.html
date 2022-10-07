@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+    <div id="numbers"></div>
+
+    <div center id="main">
+        <table>
+            <tr>
+                <td onclick="addNumber(7)">7</td>
+                <td onclick="addNumber(8)">8</td>
+                <td onclick="addNumber(9)">9</td>
+                <td onclick="clearNumbers()">Clear</td>
+            </tr>
+            <tr>
+                <td onclick="addNumber(4)">4</td>
+                <td onclick="addNumber(5)">5</td>
+                <td onclick="addNumber(6)">6</td>
+                <td onclick="addNumber('-')" center>-</td>
+            </tr>
+            <tr>
+                <td onclick="addNumber(1)">1</td>
+                <td onclick="addNumber(2)">2</td>
+                <td onclick="addNumber(3)">3</td>
+                <td onclick="loginPassword()">Log in</td>
+            </tr>
+        </table>
+    </div>
+    <div id="incorrect-message" center>
+        
+    </div>
+
+</body>
+    <script src="index.js"></script>
+</html>
